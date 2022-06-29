@@ -7,7 +7,7 @@ const Header = () => {
       <div className='container'>
         <div className='inner-content'>
           <div className='brand'>
-            <Link to='/'>WatchList</Link>
+            <Link to='/'>Nightcrawler</Link>
           </div>
           <ul className='nav-links'>
             <li>
@@ -18,7 +18,7 @@ const Header = () => {
             </li>
             <li>
               <Link to='/add' className='btn'>
-                + Add
+                Search <ion-icon name='search-outline'></ion-icon>
               </Link>
             </li>
           </ul>
